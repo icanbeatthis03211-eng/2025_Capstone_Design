@@ -1,0 +1,43 @@
+# Unity 필수 제외 폴더 (용량이 크고 자동 생성됨)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# 특정 불필요 폴더 (삭제 및 업로드 방지)
+/.utmp/
+/test_BackUpThisFolder_ButDontShipItWithYourGame/
+/2025_Capstone_Design_BurstDebugInformation_DoNotShip/
+
+# Visual Studio 및 에디터 임시 파일
+/.vs/
+/.vscode/
+/.idea/
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.tmp
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.mdb
+/*.opendb
+/*.VC.db
+
+# 빌드 결과물 및 실행 파일
+*.apk
+*.aab
+*.exe
+
+# Python 관련 (자동 생성되는 캐시 제외)
+__pycache__/
+*.py[cod]

@@ -1,0 +1,4 @@
+repository "2025_Capstone_Design/2025_Capstone_Design@14569625469509@cloud"
+  path "/"
+    br "/main"
+    co "/main"
